@@ -4,6 +4,11 @@
 
 rectangle::rectangle():length (0), width (0){}
 
+rectangle::rectangle(float new_L, float new_W){
+  length = new_L;
+  width = new_W;
+}
+
 rectangle::~rectangle(){}
 
 void rectangle::setlength(float l){
@@ -14,6 +19,7 @@ void rectangle::setwidth(float w){
   width = w;
 
 }
+
 float rectangle::getlength()const{
   return length;
 } 

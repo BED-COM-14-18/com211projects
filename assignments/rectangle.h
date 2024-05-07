@@ -6,8 +6,10 @@ class rectangle{
     float width;
 
   public:
-    // default construct 
+    // default constructor 
     rectangle();
+    // an overload constructor
+    rectangle(float new_L, float new_W);
     // destructor
     ~rectangle();
     // accessor member functions
@@ -17,4 +19,5 @@ class rectangle{
     float getwidth() const;
     // declaring member function to calculate area
     float area()const;
+  
 };
