@@ -10,7 +10,8 @@ int main() {
   pPointer = &firstValue; 
   *pPointer = 10; //Indirection 
   //assign pointer with the address of secondValue 
-  pPointer &secondValue; = *pPointer = 20; //Indirection 
+  pPointer = &secondValue; 
+  *pPointer = 20; //Indirection 
   cout << "firstValue is " << firstValue << '\n'; 
   cout << "secondValue is "<< secondValue << '\n';
   

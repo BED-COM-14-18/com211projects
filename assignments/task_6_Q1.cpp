@@ -17,7 +17,7 @@ int main() {
 
     // Output the dynamically allocated values
     cout << "Dynamically allocated integer value: "<< *dynamicInteger << endl;
-    cout << "Dynamically allocated string value: " << *dynamicString << std::endl;
+    cout << "Dynamically allocated string value: " << *dynamicString <<endl;
 
     // Clean up memory
     delete dynamicInteger;

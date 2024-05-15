@@ -37,7 +37,7 @@ Box Box::operator+( const Box& b){
       Box box;
 
       box.length = this->length + b.length;
-      box.breadth = this->breath + b.breadth;
+      box.breadth = this->breadth + b.breadth;
       box.height = this->height + b.height;
       return box;
 }

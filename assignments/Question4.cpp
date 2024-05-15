@@ -16,7 +16,7 @@ int main(){
       {
          cout<<"Sorry, you entered an invalid number. Please try again"<<endl;
          break; 
-         return (cin >> x);  
+        // return (cin >> x);  
          
       }
       // number outside range

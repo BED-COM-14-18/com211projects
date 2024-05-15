@@ -1,5 +1,5 @@
 // main function for the program
-#include "Box.h"
+#include "Box.cpp"  // this work only with extension .cpp not .h
 #include<iostream>
 
 using namespace std;
@@ -12,7 +12,7 @@ int main(){
 
     // box 1 specification
     Box1.SetLength(6.0);
-    Box1.SetBreath(7.0);
+    Box1.SetBreadth(7.0);
     Box1.SetHeight(5.0);
 
     // box 2 specification

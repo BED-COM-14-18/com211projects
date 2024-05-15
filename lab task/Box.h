@@ -1,4 +1,5 @@
 # pragma once
+
 #include<iostream>
 
 using namespace std;
@@ -8,7 +9,7 @@ class Box {
     public:
       Box();
 
-      Box(const double newlength, const double newBreadth, const newHeight);
+      Box(const double newlength, const double newBreadth, const double newHeight);
       // destructor
       ~Box();
       // accessor methods
