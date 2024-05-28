@@ -1,8 +1,9 @@
 #include <iostream>
+#include "Polygon.cpp"
+ 
+#include "Rectangle.cpp"  // works in if included .cpp not .h extension in my laptop
 
-#include "Rectangle.h"
-
-#include "Triangle.h"
+#include "Triangle.cpp"   // works in if included .cpp not .h extension in my laptop
 
 using namespace std;
 
